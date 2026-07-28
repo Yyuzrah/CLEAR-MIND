@@ -24,8 +24,19 @@ Python 3.10 or newer is required. From the repository root:
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install -e ".[train,test]"
+python -m pip install -r requirements-dev.txt
 ```
+
+Use `requirements.txt` instead when only training/runtime dependencies are
+needed:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+Both files delegate to the extras in `pyproject.toml`; they do not maintain
+separate dependency lists. The equivalent direct commands are
+`pip install -e ".[train]"` and `pip install -e ".[train,test]"`.
 
 For a conda-based installation:
 
@@ -181,6 +192,8 @@ docs/                   environment, data, source, and migration documentation
 manifests/              locked ACT/JML/BIL sample indexes and hashes
 notebooks/reference/    three untouched result-source notebooks
 reports/                normalized formal results and regression tolerances
+requirements.txt        training/runtime pip entry point
+requirements-dev.txt    development/validation pip entry point
 scripts/                provenance/golden-vector maintainer utilities
 src/em_connectome/      installable package
 tests/                  unit, golden, integration, and CLI tests

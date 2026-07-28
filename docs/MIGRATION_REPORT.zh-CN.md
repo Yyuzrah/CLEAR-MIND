@@ -122,6 +122,8 @@ spectral/
 仓库同时提供：
 
 - `pyproject.toml`：package 和依赖声明；
+- `requirements.txt`：训练/运行依赖的便捷安装入口；
+- `requirements-dev.txt`：开发/验证依赖的便捷安装入口；
 - `environment.yml`：conda 安装入口；
 - `requirements/reference-environment.txt`：本次验证机器的精确版本记录；
 - 每个 run 的 `environment.json`：实际 Python、PyTorch、CUDA、cuDNN 和设备。
@@ -200,6 +202,9 @@ docs/
 manifests/
 notebooks/reference/
 reports/
+requirements/
+requirements.txt
+requirements-dev.txt
 scripts/
 src/em_connectome/
 tests/
@@ -227,7 +232,7 @@ README.md
 | 正式 regression matrix | 45/45 运行成功 |
 | 正式 run artifact | 45 个唯一目录、360 个必需文件、6,195 行预测，零缺失 |
 | notebook | 3/3 nbformat 有效，3/3 SHA-256 与原文件一致 |
-| Git 发布候选 | 75 个文件、约 971 KB，最大文件约 288 KB |
+| Git 发布候选 | 77 个文件、约 974 KiB，最大文件约 288 KiB |
 | 大文件与本地产物 | 无大于 1 MB 的发布候选；`cache/`、`runs/` 均被忽略 |
 
 因此，第一版已经形成一个最小但完整的可安装、可命令行运行、可验证且可扩展

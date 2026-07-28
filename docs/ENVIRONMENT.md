@@ -6,8 +6,13 @@ The supported installation path from the repository root is:
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install -e ".[train,test]"
+python -m pip install -r requirements-dev.txt
 ```
+
+`requirements.txt` installs the training/runtime extra, while
+`requirements-dev.txt` installs both the training and test extras. Each file
+delegates to `pyproject.toml`, which remains the single authoritative dependency
+definition.
 
 Alternatively:
 
