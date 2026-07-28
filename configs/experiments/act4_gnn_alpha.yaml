@@ -1,0 +1,19 @@
+schema_version: 1
+dataset: act4
+spectral: arakelov_green
+model: gnn_alpha
+trainer: &gnn_trainer
+  epochs: 150
+  patience: 25
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  optimizer: adamw
+  scheduler: cosine
+  eta_min: 0.000001
+  gradient_clip: 1.0
+  jitter_std: 0.001
+  jitter_clip: 0.005
+  num_workers: 0
+  selection_rule: accuracy
+seeds: [42, 1453, 666, 114514, 1919810]

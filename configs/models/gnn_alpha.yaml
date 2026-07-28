@@ -1,0 +1,19 @@
+name: gnn_alpha
+parameters:
+  k: 16
+  spectral_dim: 64
+  num_points: 1024
+  point_channels: 6
+  consumed_point_channels: 3
+  dropout: 0.5
+sources:
+  - path: notebooks/reference/V.alpha_GNN.ipynb
+    sha256: 7aa8cdc7c68cba1548028c264aef5ec74a133fab86fcdafdbd9e1d8ed41045c8
+    cell: 1
+    role: authoritative GNN-alpha model architecture
+  - path: EM/vbeta_gnn.py
+    sha256: d833a5ea50d49da8e989612ca3524d7a7dcd9e69907319e0d88d173290762643
+    role: deterministic baseline point cache and five-seed runner transcription
+  - path: EM/run_valpha_bil_reg_5seeds.py
+    sha256: c232d83a180ce03a1d76d613e45e75c403ab11eb6235ee25d14b13da469926bc
+    role: strict registered-BIL formal run invocation

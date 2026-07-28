@@ -1,0 +1,88 @@
+schema_version: 1
+seeds: [42, 1453, 666, 114514, 1919810]
+
+# Absolute tolerances are probabilities, not percentage points:
+# MLP ±0.005 (±0.5 pp), TreeLSTM ±0.02 (±2 pp), GNN ±0.03 (±3 pp).
+# They are intentionally wider for CUDA models whose scatter/reduction kernels
+# are not bitwise deterministic across PyTorch/CUDA environments.
+experiments:
+  act4_gnn_alpha:
+    train_count: 400
+    test_count: 95
+    mean_accuracy: 0.5726315789473684
+    mean_accuracy_absolute_tolerance: 0.03
+    config_hash: 3b17f724a014720ea0c0d02a4af3bde25fe4d60c8f53fe0c70ee2c3dd1487aa0
+    manifest_sha256: 33dd5721f87b129cc7702f94c7202d53df9a3d5e599d762aac5d5bcabc227af9
+    feature_set_hash: 21780ec92a7e79a7c634c55f510da6aa4e41c9b8b00bc5db0aa095b517566b9c
+
+  act4_treelstm_arch3:
+    train_count: 400
+    test_count: 95
+    mean_accuracy: 0.7136842105263158
+    mean_accuracy_absolute_tolerance: 0.02
+    config_hash: c2b79e7314a28327644f0f14dbad811d5a682db4a55347df059eb7367c21bcc8
+    manifest_sha256: 33dd5721f87b129cc7702f94c7202d53df9a3d5e599d762aac5d5bcabc227af9
+    feature_set_hash: 21780ec92a7e79a7c634c55f510da6aa4e41c9b8b00bc5db0aa095b517566b9c
+
+  act4_mlp:
+    train_count: 400
+    test_count: 95
+    mean_accuracy: 0.6378947368421053
+    mean_accuracy_absolute_tolerance: 0.005
+    config_hash: bfef2a16055533c6ad3c8af6c7a31e4c290a0770dfd7f584e9130e857890682f
+    manifest_sha256: 33dd5721f87b129cc7702f94c7202d53df9a3d5e599d762aac5d5bcabc227af9
+    feature_set_hash: 21780ec92a7e79a7c634c55f510da6aa4e41c9b8b00bc5db0aa095b517566b9c
+
+  jml4_gnn_alpha:
+    train_count: 332
+    test_count: 76
+    mean_accuracy: 0.7078947368421054
+    mean_accuracy_absolute_tolerance: 0.03
+    config_hash: 51633bb3150c2064b96fd94c29a6df58373fb67795deb3540abf2fcba79acca4
+    manifest_sha256: 11279e897729a70618e6d4b0afad05a271eccaf6ae4524cb98e5a97a12b6a563
+    feature_set_hash: 96df7e6345db88b3206e6793fb81145f3c011617ff5ca88e0321d4329dc07cfa
+
+  jml4_treelstm_arch3:
+    train_count: 332
+    test_count: 76
+    mean_accuracy: 0.7605263157894737
+    mean_accuracy_absolute_tolerance: 0.02
+    config_hash: a0b0aedf1ef4fa416cef1dbf09b5a61605fa868a896de14f9f1154ad1b90d1e1
+    manifest_sha256: 11279e897729a70618e6d4b0afad05a271eccaf6ae4524cb98e5a97a12b6a563
+    feature_set_hash: 96df7e6345db88b3206e6793fb81145f3c011617ff5ca88e0321d4329dc07cfa
+
+  jml4_mlp:
+    train_count: 332
+    test_count: 76
+    mean_accuracy: 0.6026315789473684
+    mean_accuracy_absolute_tolerance: 0.005
+    config_hash: 3cc670e6daa9259175ab825db55c1f956e294904faaf8ed52b19a82ddaebaa4c
+    manifest_sha256: 11279e897729a70618e6d4b0afad05a271eccaf6ae4524cb98e5a97a12b6a563
+    feature_set_hash: 96df7e6345db88b3206e6793fb81145f3c011617ff5ca88e0321d4329dc07cfa
+
+  bil6_gnn_alpha:
+    train_count: 958
+    test_count: 242
+    mean_accuracy: 0.9181818181818182
+    mean_accuracy_absolute_tolerance: 0.03
+    config_hash: 4295921b502f0f58e52230bb16db3eee3c9c0bbc47f3ea24ac58940988f6c98f
+    manifest_sha256: 0768c79df95f7befc27b064c6534b471c8f4edd687f8df79eca6d8b243653790
+    feature_set_hash: 75a60c4bdd34d5de0f2ec4bbd9479d39eef39e3b60e81d048023784827f7fc73
+
+  bil6_treelstm_arch3:
+    train_count: 958
+    test_count: 242
+    mean_accuracy: 0.9380165289256197
+    mean_accuracy_absolute_tolerance: 0.02
+    config_hash: 1fee3d2a17e6e2af66108730bb180e2a66f19e6ab1aa6f6317f99e878e83bdcc
+    manifest_sha256: 0768c79df95f7befc27b064c6534b471c8f4edd687f8df79eca6d8b243653790
+    feature_set_hash: 75a60c4bdd34d5de0f2ec4bbd9479d39eef39e3b60e81d048023784827f7fc73
+
+  bil6_mlp:
+    train_count: 958
+    test_count: 242
+    mean_accuracy: 0.7330578512396694
+    mean_accuracy_absolute_tolerance: 0.005
+    config_hash: fe705d1b646133869f6abbb652ff51d0ed935c0764fde1e1225056e2ff08c821
+    manifest_sha256: 0768c79df95f7befc27b064c6534b471c8f4edd687f8df79eca6d8b243653790
+    feature_set_hash: 75a60c4bdd34d5de0f2ec4bbd9479d39eef39e3b60e81d048023784827f7fc73

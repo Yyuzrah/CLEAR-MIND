@@ -1,0 +1,51 @@
+{
+  "fixture": "tests/fixtures/simple.swc",
+  "fixture_sha256": "288bd1171d29be4d362c99c67c39bbf74eb0934081794a17e40ad7b1cabebad0",
+  "gnn": {
+    "feature_version": "vbeta_topology6_bounded_fps_v1",
+    "num_points": 1024,
+    "point_cloud_sha256": "dbcc506cd74ae547615e2d6330b54154f422b91548b4fd536b0c00c690a07266",
+    "point_cloud_shape": [
+      6,
+      1024
+    ],
+    "sampled_indices_sha256": "8e0ec081273fd56bdec15f45fcadc2039f2580fad652f1b79abe3e7eac3acf8b",
+    "source": "E:\\research\\connectome\\EM\\vbeta_gnn.py",
+    "source_sha256": "d833a5ea50d49da8e989612ca3524d7a7dcd9e69907319e0d88d173290762643",
+    "tree_parent_sha256": "2c605202c2138f90377c720d0758c22f3a16dd20d0fe13582f50f466f2875809"
+  },
+  "schema_version": 1,
+  "treelstm": {
+    "label": 0,
+    "levels": [
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ]
+    ],
+    "parent_indices": [
+      5,
+      0,
+      1,
+      1,
+      1
+    ],
+    "root_idx": 0,
+    "source": "notebooks/reference/V.alpha_TreeLSTM_arch3.ipynb",
+    "source_cell": 3,
+    "source_sha256": "8642222098205f93d3c348ad5e7c3df968e39890c7245f97f11f4ff8160d20a7",
+    "spectral_sha256": "b5316f55f2ee89712fadd59be4276706e67cfa9b7b4f683c7790be94b000183d",
+    "x_sha256": "37cd4ebab87ff57bdc447fdbf19801e9a9f4bb75c1725eec0772d333b3479522",
+    "x_shape": [
+      5,
+      5
+    ]
+  }
+}

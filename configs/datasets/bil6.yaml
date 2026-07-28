@@ -1,0 +1,10 @@
+key: bil6
+display_name: BIL-6
+manifest: manifests/bil6.csv
+classes:
+  - CP
+  - Isocortex_layer23
+  - Isocortex_layer4
+  - Isocortex_layer5
+  - Isocortex_layer6
+  - VPM

@@ -1,0 +1,8 @@
+key: jml4
+display_name: JML-4
+manifest: manifests/jml4.csv
+classes:
+  - Isocortex_layer23
+  - Isocortex_layer5
+  - Isocortex_layer6
+  - VPM

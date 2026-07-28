@@ -1,0 +1,102 @@
+{
+  "datasets": {
+    "act4": {
+      "display_name": "ACT-4",
+      "fold_counts": {
+        "0": 50,
+        "1": 49,
+        "2": 48,
+        "3": 49,
+        "4": 53,
+        "5": 49,
+        "6": 53,
+        "7": 49,
+        "8": 46,
+        "9": 49
+      },
+      "label_counts": {
+        "Isocortex_layer23": 111,
+        "Isocortex_layer4": 123,
+        "Isocortex_layer5": 164,
+        "Isocortex_layer6": 97
+      },
+      "manifest": "act4.csv",
+      "manifest_sha256": "33dd5721f87b129cc7702f94c7202d53df9a3d5e599d762aac5d5bcabc227af9",
+      "metadata_filename": "ACT_info_swc_10folds.csv",
+      "metadata_sha256": "978c83d2d5af95041e675e1df7965e42d98558821e9f0f4cae8833f8fd46343d",
+      "registered_fraction": 0.0,
+      "rows": 495,
+      "split_counts": {
+        "test": 95,
+        "train": 400
+      }
+    },
+    "bil6": {
+      "display_name": "BIL-6",
+      "fold_counts": {
+        "0": 127,
+        "1": 119,
+        "2": 122,
+        "3": 118,
+        "4": 114,
+        "5": 122,
+        "6": 112,
+        "7": 124,
+        "8": 120,
+        "9": 122
+      },
+      "label_counts": {
+        "CP": 311,
+        "Isocortex_layer23": 115,
+        "Isocortex_layer4": 53,
+        "Isocortex_layer5": 259,
+        "Isocortex_layer6": 84,
+        "VPM": 378
+      },
+      "manifest": "bil6.csv",
+      "manifest_sha256": "0768c79df95f7befc27b064c6534b471c8f4edd687f8df79eca6d8b243653790",
+      "metadata_filename": "BIL_info_swc_10folds.csv",
+      "metadata_sha256": "19dbeeab1b23f7ce87ebbe098b3bf63164c8ba619c1d7605281714f75357fe08",
+      "registered_fraction": 1.0,
+      "rows": 1200,
+      "split_counts": {
+        "test": 242,
+        "train": 958
+      }
+    },
+    "jml4": {
+      "display_name": "JML-4",
+      "fold_counts": {
+        "0": 43,
+        "1": 41,
+        "2": 41,
+        "3": 42,
+        "4": 41,
+        "5": 44,
+        "6": 41,
+        "7": 39,
+        "8": 38,
+        "9": 38
+      },
+      "label_counts": {
+        "Isocortex_layer23": 78,
+        "Isocortex_layer5": 186,
+        "Isocortex_layer6": 116,
+        "VPM": 28
+      },
+      "manifest": "jml4.csv",
+      "manifest_sha256": "11279e897729a70618e6d4b0afad05a271eccaf6ae4524cb98e5a97a12b6a563",
+      "metadata_filename": "JML_info_swc_10folds.csv",
+      "metadata_sha256": "957403ccdd45d6de20599d12349e4a9f787dde46534f88287b5c1472150a42a8",
+      "registered_fraction": 0.0,
+      "rows": 408,
+      "split_counts": {
+        "test": 76,
+        "train": 332
+      }
+    }
+  },
+  "manifest_set": "v1-arakelov-green",
+  "metadata_policy": "champion exact-loader metadata; exact raw filename; folds 0-7/8-9",
+  "schema_version": 1
+}
