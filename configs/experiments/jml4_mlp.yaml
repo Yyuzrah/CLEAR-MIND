@@ -1,0 +1,16 @@
+schema_version: 1
+dataset: jml4
+spectral: arakelov_green
+model: mlp
+trainer:
+  epochs: 800
+  patience: 250
+  batch_size: 32
+  learning_rate: 0.003
+  weight_decay: 0.000001
+  optimizer: adam
+  scheduler: none
+  label_smoothing: 0.05
+  num_workers: 0
+  selection_rule: accuracy_macro_f1_loss
+seeds: [42, 1453, 666, 114514, 1919810]

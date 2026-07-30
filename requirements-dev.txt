@@ -1,0 +1,2 @@
+# Development and validation dependencies extend the same package definition.
+-e .[train,test]

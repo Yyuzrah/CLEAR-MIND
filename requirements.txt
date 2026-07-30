@@ -1,0 +1,2 @@
+# Runtime and training dependencies are defined by the package's train extra.
+-e .[train]

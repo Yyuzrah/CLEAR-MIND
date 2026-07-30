@@ -1,0 +1,11 @@
+name: treelstm_arch3
+parameters:
+  node_feat_dim: 5
+  hidden_dim: 128
+  spectral_dim: 64
+  dropout: 0.3
+sources:
+  - path: notebooks/reference/V.alpha_TreeLSTM_arch3.ipynb
+    sha256: 8642222098205f93d3c348ad5e7c3df968e39890c7245f97f11f4ff8160d20a7
+    cell: 3
+    role: tree adapter, child-sum model, architecture 3, and trainer

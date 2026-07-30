@@ -1,0 +1,12 @@
+name: mlp
+parameters:
+  input_dim: 64
+  hidden_dims: [96, 48]
+  activation: leaky_relu
+  negative_slope: 0.1
+  dropout: 0.05
+sources:
+  - path: notebooks/reference/V.alpha_MLP_clean_champion_reproduction.ipynb
+    sha256: 48c6f729efcb8aa4a9096712e5e8c3a8057801adfcdbad8c274cfa9556bd0907
+    cell: 8
+    role: champion model, train-only standardization, and training protocol

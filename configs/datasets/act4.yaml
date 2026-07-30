@@ -1,0 +1,8 @@
+key: act4
+display_name: ACT-4
+manifest: manifests/act4.csv
+classes:
+  - Isocortex_layer23
+  - Isocortex_layer4
+  - Isocortex_layer5
+  - Isocortex_layer6

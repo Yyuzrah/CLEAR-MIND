@@ -1,0 +1,10 @@
+method: arakelov_green
+epsilon: 20.0
+noise_threshold: 5.0
+top_k: 64
+implementation_version: notebook-old64-eps-tau-affinity1e9-v1
+source:
+  path: notebooks/reference/V.alpha_MLP_clean_champion_reproduction.ipynb
+  sha256: 48c6f729efcb8aa4a9096712e5e8c3a8057801adfcdbad8c274cfa9556bd0907
+  cell: 6
+  role: authoritative Arakelov-Green implementation and real golden vectors
