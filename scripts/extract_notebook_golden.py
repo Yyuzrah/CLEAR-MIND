@@ -1,4 +1,4 @@
-"""Extract spectrum golden vectors by executing the untouched notebook class."""
+"""Extract spectrum golden vectors from the preserved MLP code cell."""
 
 from __future__ import annotations
 
@@ -82,7 +82,10 @@ def main() -> int:
     payload = {
         "schema_version": 1,
         "source_notebook": NOTEBOOK.relative_to(REPOSITORY_ROOT).as_posix(),
-        "source_notebook_sha256": hashlib.sha256(NOTEBOOK.read_bytes()).hexdigest(),
+        "historical_source_notebook_sha256": (
+            "48c6f729efcb8aa4a9096712e5e8c3a8057801adfcdbad8c274cfa9556bd0907"
+        ),
+        "repository_notebook_sha256": hashlib.sha256(NOTEBOOK.read_bytes()).hexdigest(),
         "source_cell": 6,
         "method": "arakelov_green",
         "parameters": {

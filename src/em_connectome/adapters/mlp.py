@@ -1,4 +1,4 @@
-"""64-dimensional spectrum adapter used by the champion MLP."""
+"""64-dimensional spectrum adapter used by the fixed MLP."""
 
 from __future__ import annotations
 
@@ -20,7 +20,7 @@ class MLPSample:
 
 @dataclass(frozen=True)
 class SpectrumStandardizer:
-    """Train-only per-dimension normalization from the champion notebook."""
+    """Train-only per-dimension normalization from the MLP result notebook."""
 
     mean: NDArray[np.float64]
     std: NDArray[np.float64]

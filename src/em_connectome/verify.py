@@ -65,7 +65,7 @@ def verify_features(
     golden_path = repository_root / "tests" / "golden" / "arakelov_green_v1.json"
     golden = json.loads(golden_path.read_text(encoding="utf-8"))
     notebook = repository_root / golden["source_notebook"]
-    provenance_ok = sha256_file(notebook) == golden["source_notebook_sha256"]
+    provenance_ok = sha256_file(notebook) == golden["repository_notebook_sha256"]
     manifests = {
         key: {
             row.sample_id: row
@@ -93,7 +93,7 @@ def verify_features(
     ok = provenance_ok and all(row["content_sha256_ok"] and row["matches"] for row in records)
     return {
         "gate": "features",
-        "source_notebook_sha256_ok": provenance_ok,
+        "repository_notebook_sha256_ok": provenance_ok,
         "records": records,
         "ok": ok,
     }

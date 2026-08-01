@@ -1,4 +1,4 @@
-"""Champion 64→96→48 MLP from the formal reproduction notebook."""
+"""Fixed 64→96→48 MLP from the formal reproduction notebook."""
 
 from __future__ import annotations
 

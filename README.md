@@ -166,22 +166,24 @@ python -m ruff format --check .
 The gates cover:
 
 1. manifest counts, folds, labels, paths, and file hashes;
-2. real-sample spectrum vectors extracted from the untouched MLP notebook;
+2. real-sample spectrum vectors extracted from the preserved MLP code cell;
 3. GNN and TreeLSTM adapter fixtures;
 4. notebook-equivalent parameter shapes, logits, and loss for all models;
 5. an end-to-end CLI smoke matrix and five-seed formal regressions.
 
-The three notebooks in `notebooks/reference/` remain byte-identical to their
-result-producing sources, including saved outputs. They are provenance records,
-not the supported runtime. See [`docs/SOURCE_MAPPING.md`](docs/SOURCE_MAPPING.md)
-for their hashes and precise execution status.
+The three notebooks in `notebooks/reference/` are provenance records, not the
+supported runtime. The GNN and TreeLSTM copies remain byte-identical to their
+historical sources. The MLP copy has English Markdown while its code cells,
+execution counts, and outputs remain unchanged. See
+[`docs/SOURCE_MAPPING.md`](docs/SOURCE_MAPPING.md) for the hashes, preservation
+policy, and precise execution status.
 
 The completed 45-run matrix is in
 [`reports/v1_formal_results.csv`](reports/v1_formal_results.csv), with its
 machine-checkable tolerances in
 [`reports/v1_regression_targets.yaml`](reports/v1_regression_targets.yaml).
-See the Chinese
-[`migration report`](docs/MIGRATION_REPORT.zh-CN.md) for the aggregate table,
+See the
+[`migration report`](docs/MIGRATION_REPORT.md) for the aggregate table,
 historical comparisons, exclusions, and known interpretation boundaries.
 
 ## Repository contents
@@ -190,7 +192,7 @@ historical comparisons, exclusions, and known interpretation boundaries.
 configs/                validated dataset, spectrum, model, and experiment YAML
 docs/                   environment, data, source, and migration documentation
 manifests/              locked ACT/JML/BIL sample indexes and hashes
-notebooks/reference/    three untouched result-source notebooks
+notebooks/reference/    three audited result-source notebooks
 reports/                normalized formal results and regression tolerances
 requirements.txt        training/runtime pip entry point
 requirements-dev.txt    development/validation pip entry point
