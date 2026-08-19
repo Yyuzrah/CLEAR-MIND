@@ -1,4 +1,4 @@
 * text=auto eol=lf
 
-# Historical notebooks are byte-for-byte provenance records.
+# Preserve notebook serialization so provenance hashes remain stable.
 *.ipynb -text whitespace=-trailing-space,-blank-at-eof

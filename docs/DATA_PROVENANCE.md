@@ -7,7 +7,7 @@ folds.
 ## Canonical source
 
 The locked manifests are generated from the exact-loader data copy used by the
-formal champion MLP notebook:
+formal fixed-configuration MLP notebook:
 
 ```text
 external/treemoco/data/
@@ -47,9 +47,9 @@ They select the same 408 SWC files with identical labels and byte-identical
 content, but 119 samples cross the train/test boundary and only 61 samples keep
 the exact same fold number. The saved TreeLSTM-arch3 JML result uses the older
 77-sample test split (its percentage increments prove that denominator); the
-formal champion MLP notebook uses the newer 76-sample test split.
+formal MLP result notebook uses the newer 76-sample test split.
 
-Version one chooses the newer champion exact-loader split as the single
+Version one chooses the newer fixed exact-loader split as the single
 canonical default. Consequently, the historical TreeLSTM JML number is
 provenance evidence, not a valid exact regression target for the canonical
 JML manifest. The package must establish a new TreeLSTM JML five-seed baseline

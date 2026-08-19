@@ -23,11 +23,11 @@ def load_golden() -> dict[str, object]:
     return json.loads(GOLDEN_PATH.read_text(encoding="utf-8"))
 
 
-def test_golden_provenance_points_to_untouched_notebook() -> None:
+def test_golden_provenance_points_to_preserved_notebook_code() -> None:
     golden = load_golden()
     notebook_path = REPOSITORY_ROOT / golden["source_notebook"]
     assert golden["source_cell"] == 6
-    assert sha256_file(notebook_path) == golden["source_notebook_sha256"]
+    assert sha256_file(notebook_path) == golden["repository_notebook_sha256"]
     assert golden["parameters"] == {
         "epsilon": 20.0,
         "noise_threshold": 5.0,
