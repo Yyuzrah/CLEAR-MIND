@@ -1,3 +1,7 @@
+> **Earlier release (version one).** This folder is the self-contained reproduction package that was published
+> before the revised paper. Run its commands from this folder: it is the "repository root" of the text below.
+> The code and saved results of the revised paper are in the top-level folders of this repository.
+
 # EM Connectome Reproduction
 
 Minimal, installable reproduction package for the version-one experiment:
