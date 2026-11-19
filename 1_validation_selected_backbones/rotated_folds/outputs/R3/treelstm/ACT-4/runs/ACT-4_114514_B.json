@@ -1,0 +1,6 @@
+{
+ "best_epoch": 72,
+ "stop_epoch": 97,
+ "best_val_correct": 34,
+ "val_n": 53
+}

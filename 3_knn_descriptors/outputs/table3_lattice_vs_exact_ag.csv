@@ -1,0 +1,4 @@
+dataset,lattice accuracy,lattice macro_f1,lattice time_s,exact quotient AG accuracy,exact quotient AG macro_f1,exact quotient AG time_s
+ACT-4,40.0,38.73,117.8,40.0,38.64,7.0
+JML-4,40.26,38.77,1802.2,58.44,51.69,49.6
+BIL-6,76.03,64.45,1710.8,71.07,59.7,64.3

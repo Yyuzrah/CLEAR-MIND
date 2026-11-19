@@ -1,0 +1,3 @@
+# The files of the code release are stored and checked out byte for byte (no line-ending conversion),
+# so that reruns can be compared with the saved outputs. legacy/ keeps its own rules.
+* -text

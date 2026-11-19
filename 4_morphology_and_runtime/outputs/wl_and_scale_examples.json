@@ -1,0 +1,15 @@
+{
+  "wl_separated": 0,
+  "ag_separated": 217,
+  "ag_only": 217,
+  "wl_max_rounds": 11,
+  "bipartite_prism_leading": [
+    2.999999999999999,
+    3.133333333333333
+  ],
+  "morphology_leading": [
+    179.9088305440576,
+    359.81766108811587
+  ],
+  "normalized_coordinate_max_change": 7.100590071473789e-08
+}

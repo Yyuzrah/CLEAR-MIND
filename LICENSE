@@ -1,0 +1,22 @@
+CLEARMIND: code, data files and results accompanying the CLEARMIND paper
+
+Copyright (c) 2026 the CLEARMIND authors. All rights reserved.
+
+1. Purpose. These materials (source code, documentation, saved models, data files, results,
+   figures and the animation) are published so that readers can inspect the method and check
+   the results reported in the paper.
+
+2. What you may do. You may view and download the materials, and run the code to reproduce and
+   check the reported results. Citing the paper and its results is welcome.
+
+3. What you may not do without the authors' prior written permission. You may not copy, modify,
+   translate or rewrite the code, in whole or in part; use the code, saved models or data files
+   in other work; or redistribute or publish the materials or anything derived from them, in
+   any form.
+
+4. Notices. Every source file carries a notice that identifies it as part of CLEARMIND. The
+   notices must not be removed or altered.
+
+5. No warranty. The materials are provided "as is", without warranty of any kind.
+
+The folder legacy/ holds an earlier release with its own documentation.

@@ -1,0 +1,41 @@
+{
+  "AG": {
+    "separated": 217,
+    "by_category": {
+      "Basic": 60,
+      "Simple regular": 50,
+      "Strongly regular": 0,
+      "Extension": 100,
+      "CFI": 7,
+      "4-vertex condition": 0,
+      "Distance regular": 0
+    },
+    "pairs_with_decision_changing_across_relabelings": 0,
+    "max_relative_change_across_relabelings": 5.40854068725388e-14,
+    "max_relative_difference_in_reliability_block": 4.4022660664495184e-14,
+    "min_relative_difference_of_separated_pairs": 3.0303040397476414e-08
+  },
+  "Laplacian": {
+    "separated": 213,
+    "by_category": {
+      "Basic": 60,
+      "Simple regular": 50,
+      "Strongly regular": 0,
+      "Extension": 100,
+      "CFI": 3,
+      "4-vertex condition": 0,
+      "Distance regular": 0
+    },
+    "pairs_with_decision_changing_across_relabelings": 0,
+    "max_relative_change_across_relabelings": 4.8781400313332625e-15,
+    "max_relative_difference_in_reliability_block": 5.125909169865778e-15,
+    "min_relative_difference_of_separated_pairs": 0.01129621457434028
+  },
+  "separated_by_Laplacian_but_not_AG": [],
+  "separated_by_AG_but_not_Laplacian": [
+    273,
+    289,
+    307,
+    317
+  ]
+}

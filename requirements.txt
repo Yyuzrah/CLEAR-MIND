@@ -1,0 +1,10 @@
+# CLEARMIND: copyright (c) 2026 the CLEARMIND authors, all rights reserved (see LICENSE).
+# Tested with Python 3.10 and CUDA 12.1
+torch==2.1.2
+numpy==1.26.4
+scipy==1.15.3
+networkx==3.4.2
+scikit-learn==1.7.2
+pandas==2.3.3
+matplotlib
+tqdm

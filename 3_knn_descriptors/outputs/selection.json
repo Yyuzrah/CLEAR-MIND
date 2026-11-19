@@ -1,0 +1,369 @@
+{
+  "choices": {
+    "ACT-4|Submitted AG": {
+      "correct": 27,
+      "k": 3,
+      "scale": "z"
+    },
+    "ACT-4|Exact quotient AG": {
+      "correct": 25,
+      "k": 3,
+      "scale": "z"
+    },
+    "ACT-4|Laplacian high": {
+      "correct": 24,
+      "k": 3,
+      "scale": "z"
+    },
+    "ACT-4|Laplacian low": {
+      "correct": 23,
+      "k": 5,
+      "scale": "z"
+    },
+    "ACT-4|Sholl": {
+      "correct": 30,
+      "k": 3,
+      "scale": "z"
+    },
+    "ACT-4|Radial TMD": {
+      "correct": 24,
+      "k": 10,
+      "scale": "raw"
+    },
+    "ACT-4|Five statistics": {
+      "correct": 27,
+      "k": 3,
+      "scale": "z"
+    },
+    "ACT-4|Classical combination": {
+      "correct": 27,
+      "k": 1,
+      "scale": "z"
+    },
+    "ACT-4|Classical + Exact quotient AG": {
+      "correct": 27,
+      "k": 1,
+      "scale": "z"
+    },
+    "ACT-4|eps=0,tau=0": {
+      "correct": 26,
+      "k": 5,
+      "scale": "z"
+    },
+    "ACT-4|eps=0,tau=5": {
+      "correct": 25,
+      "k": 5,
+      "scale": "z"
+    },
+    "ACT-4|eps=0,tau=10": {
+      "correct": 26,
+      "k": 5,
+      "scale": "z"
+    },
+    "ACT-4|eps=20,tau=0": {
+      "correct": 25,
+      "k": 3,
+      "scale": "z"
+    },
+    "ACT-4|eps=20,tau=5": {
+      "correct": 25,
+      "k": 3,
+      "scale": "z"
+    },
+    "ACT-4|eps=20,tau=10": {
+      "correct": 25,
+      "k": 5,
+      "scale": "z"
+    },
+    "ACT-4|eps=50,tau=0": {
+      "correct": 27,
+      "k": 20,
+      "scale": "z"
+    },
+    "ACT-4|eps=50,tau=5": {
+      "correct": 26,
+      "k": 20,
+      "scale": "z"
+    },
+    "ACT-4|eps=50,tau=10": {
+      "correct": 25,
+      "k": 20,
+      "scale": "z"
+    },
+    "ACT-4|K=16": {
+      "correct": 23,
+      "k": 3,
+      "scale": "z"
+    },
+    "ACT-4|K=32": {
+      "correct": 23,
+      "k": 3,
+      "scale": "raw"
+    },
+    "ACT-4|K=64": {
+      "correct": 25,
+      "k": 3,
+      "scale": "z"
+    },
+    "ACT-4|K=128": {
+      "correct": 25,
+      "k": 5,
+      "scale": "z"
+    },
+    "ACT-4|Full-tree H0": {
+      "correct": 24,
+      "k": 20,
+      "scale": "raw"
+    },
+    "ACT-4|Lattice pipeline": {
+      "correct": 27,
+      "k": 5,
+      "scale": "z"
+    },
+    "JML-4|Submitted AG": {
+      "correct": 24,
+      "k": 10,
+      "scale": "raw"
+    },
+    "JML-4|Exact quotient AG": {
+      "correct": 25,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|Laplacian high": {
+      "correct": 25,
+      "k": 20,
+      "scale": "raw"
+    },
+    "JML-4|Laplacian low": {
+      "correct": 20,
+      "k": 1,
+      "scale": "z"
+    },
+    "JML-4|Sholl": {
+      "correct": 28,
+      "k": 1,
+      "scale": "raw"
+    },
+    "JML-4|Radial TMD": {
+      "correct": 26,
+      "k": 5,
+      "scale": "z"
+    },
+    "JML-4|Five statistics": {
+      "correct": 22,
+      "k": 1,
+      "scale": "z"
+    },
+    "JML-4|Classical combination": {
+      "correct": 29,
+      "k": 5,
+      "scale": "raw"
+    },
+    "JML-4|Classical + Exact quotient AG": {
+      "correct": 28,
+      "k": 5,
+      "scale": "raw"
+    },
+    "JML-4|eps=0,tau=0": {
+      "correct": 26,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|eps=0,tau=5": {
+      "correct": 26,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|eps=0,tau=10": {
+      "correct": 26,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|eps=20,tau=0": {
+      "correct": 25,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|eps=20,tau=5": {
+      "correct": 25,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|eps=20,tau=10": {
+      "correct": 26,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|eps=50,tau=0": {
+      "correct": 25,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|eps=50,tau=5": {
+      "correct": 25,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|eps=50,tau=10": {
+      "correct": 25,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|K=16": {
+      "correct": 25,
+      "k": 20,
+      "scale": "z"
+    },
+    "JML-4|K=32": {
+      "correct": 23,
+      "k": 1,
+      "scale": "z"
+    },
+    "JML-4|K=64": {
+      "correct": 25,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|K=128": {
+      "correct": 26,
+      "k": 10,
+      "scale": "z"
+    },
+    "JML-4|Full-tree H0": {
+      "correct": 28,
+      "k": 3,
+      "scale": "z"
+    },
+    "JML-4|Lattice pipeline": {
+      "correct": 23,
+      "k": 5,
+      "scale": "raw"
+    },
+    "BIL-6|Submitted AG": {
+      "correct": 82,
+      "k": 10,
+      "scale": "z"
+    },
+    "BIL-6|Exact quotient AG": {
+      "correct": 92,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|Laplacian high": {
+      "correct": 48,
+      "k": 20,
+      "scale": "raw"
+    },
+    "BIL-6|Laplacian low": {
+      "correct": 95,
+      "k": 10,
+      "scale": "z"
+    },
+    "BIL-6|Sholl": {
+      "correct": 102,
+      "k": 10,
+      "scale": "raw"
+    },
+    "BIL-6|Radial TMD": {
+      "correct": 104,
+      "k": 1,
+      "scale": "z"
+    },
+    "BIL-6|Five statistics": {
+      "correct": 95,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|Classical combination": {
+      "correct": 111,
+      "k": 1,
+      "scale": "raw"
+    },
+    "BIL-6|Classical + Exact quotient AG": {
+      "correct": 112,
+      "k": 10,
+      "scale": "z"
+    },
+    "BIL-6|eps=0,tau=0": {
+      "correct": 94,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|eps=0,tau=5": {
+      "correct": 94,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|eps=0,tau=10": {
+      "correct": 93,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|eps=20,tau=0": {
+      "correct": 92,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|eps=20,tau=5": {
+      "correct": 92,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|eps=20,tau=10": {
+      "correct": 92,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|eps=50,tau=0": {
+      "correct": 89,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|eps=50,tau=5": {
+      "correct": 89,
+      "k": 10,
+      "scale": "z"
+    },
+    "BIL-6|eps=50,tau=10": {
+      "correct": 90,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|K=16": {
+      "correct": 77,
+      "k": 3,
+      "scale": "z"
+    },
+    "BIL-6|K=32": {
+      "correct": 80,
+      "k": 20,
+      "scale": "z"
+    },
+    "BIL-6|K=64": {
+      "correct": 92,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|K=128": {
+      "correct": 101,
+      "k": 1,
+      "scale": "z"
+    },
+    "BIL-6|Full-tree H0": {
+      "correct": 113,
+      "k": 5,
+      "scale": "z"
+    },
+    "BIL-6|Lattice pipeline": {
+      "correct": 102,
+      "k": 5,
+      "scale": "z"
+    }
+  },
+  "grid_by_validation": {
+    "ACT-4": "eps=50,tau=0",
+    "JML-4": "eps=0,tau=0",
+    "BIL-6": "eps=0,tau=0"
+  }
+}

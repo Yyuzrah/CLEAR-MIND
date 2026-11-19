@@ -1,0 +1,11 @@
+descriptor,ACT-4 accuracy,ACT-4 macro_f1,JML-4 accuracy,JML-4 macro_f1,BIL-6 accuracy,BIL-6 macro_f1
+Submitted AG,45.26,45.73,42.86,26.29,59.92,49.13
+Exact quotient AG,40.0,38.64,58.44,51.69,71.07,59.7
+Laplacian high,37.89,37.67,50.65,30.69,40.91,27.8
+Laplacian low,34.74,32.25,50.65,50.38,71.49,56.92
+Sholl,47.37,44.86,50.65,51.17,76.86,66.87
+Radial TMD,43.16,41.45,51.95,51.45,75.62,63.41
+Full-tree H0,44.21,42.96,50.65,49.39,80.99,71.17
+Five statistics,43.16,42.89,46.75,47.0,71.49,60.78
+Classical combination,41.05,40.07,53.25,53.0,84.71,75.92
+Classical + Exact quotient AG,42.11,40.9,54.55,54.79,84.71,75.47

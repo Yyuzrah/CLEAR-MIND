@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Outputs of reruns and per-neuron caches (the outputs used in the paper are in outputs/ and results/)
+rerun/
+rerun_*/
+cache/
+1_validation_selected_backbones/rotated_folds/outputs/logs/
+
+# Public data, downloaded separately (see data/README.md)
+data/raw/
+data/BREC/

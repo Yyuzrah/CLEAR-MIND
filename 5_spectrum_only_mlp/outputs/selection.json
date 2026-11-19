@@ -1,0 +1,182 @@
+{
+ "ACT-4_42_B": {
+  "best_epoch": 48,
+  "stop_epoch": 73,
+  "best_val_correct": 25,
+  "val_n": 49
+ },
+ "ACT-4_114514_B": {
+  "best_epoch": 52,
+  "stop_epoch": 77,
+  "best_val_correct": 25,
+  "val_n": 49
+ },
+ "ACT-4_1919810_B": {
+  "best_epoch": 31,
+  "stop_epoch": 56,
+  "best_val_correct": 25,
+  "val_n": 49
+ },
+ "ACT-4_666_B": {
+  "best_epoch": 61,
+  "stop_epoch": 86,
+  "best_val_correct": 26,
+  "val_n": 49
+ },
+ "ACT-4_1453_B": {
+  "best_epoch": 52,
+  "stop_epoch": 77,
+  "best_val_correct": 26,
+  "val_n": 49
+ },
+ "ACT-4_42_C": {
+  "best_epoch": 14,
+  "stop_epoch": 39,
+  "best_val_correct": 20,
+  "val_n": 49
+ },
+ "ACT-4_114514_C": {
+  "best_epoch": 49,
+  "stop_epoch": 74,
+  "best_val_correct": 22,
+  "val_n": 49
+ },
+ "ACT-4_1919810_C": {
+  "best_epoch": 13,
+  "stop_epoch": 38,
+  "best_val_correct": 24,
+  "val_n": 49
+ },
+ "ACT-4_666_C": {
+  "best_epoch": 4,
+  "stop_epoch": 29,
+  "best_val_correct": 20,
+  "val_n": 49
+ },
+ "ACT-4_1453_C": {
+  "best_epoch": 52,
+  "stop_epoch": 77,
+  "best_val_correct": 24,
+  "val_n": 49
+ },
+ "JML-4_42_B": {
+  "best_epoch": 26,
+  "stop_epoch": 51,
+  "best_val_correct": 24,
+  "val_n": 41
+ },
+ "JML-4_114514_B": {
+  "best_epoch": 1,
+  "stop_epoch": 26,
+  "best_val_correct": 21,
+  "val_n": 41
+ },
+ "JML-4_1919810_B": {
+  "best_epoch": 2,
+  "stop_epoch": 27,
+  "best_val_correct": 19,
+  "val_n": 41
+ },
+ "JML-4_666_B": {
+  "best_epoch": 17,
+  "stop_epoch": 42,
+  "best_val_correct": 20,
+  "val_n": 41
+ },
+ "JML-4_1453_B": {
+  "best_epoch": 7,
+  "stop_epoch": 32,
+  "best_val_correct": 21,
+  "val_n": 41
+ },
+ "JML-4_42_C": {
+  "best_epoch": 38,
+  "stop_epoch": 63,
+  "best_val_correct": 24,
+  "val_n": 41
+ },
+ "JML-4_114514_C": {
+  "best_epoch": 38,
+  "stop_epoch": 63,
+  "best_val_correct": 24,
+  "val_n": 41
+ },
+ "JML-4_1919810_C": {
+  "best_epoch": 2,
+  "stop_epoch": 27,
+  "best_val_correct": 18,
+  "val_n": 41
+ },
+ "JML-4_666_C": {
+  "best_epoch": 55,
+  "stop_epoch": 80,
+  "best_val_correct": 26,
+  "val_n": 41
+ },
+ "JML-4_1453_C": {
+  "best_epoch": 57,
+  "stop_epoch": 82,
+  "best_val_correct": 25,
+  "val_n": 41
+ },
+ "BIL-6_42_B": {
+  "best_epoch": 44,
+  "stop_epoch": 69,
+  "best_val_correct": 97,
+  "val_n": 124
+ },
+ "BIL-6_114514_B": {
+  "best_epoch": 62,
+  "stop_epoch": 87,
+  "best_val_correct": 97,
+  "val_n": 124
+ },
+ "BIL-6_1919810_B": {
+  "best_epoch": 41,
+  "stop_epoch": 66,
+  "best_val_correct": 97,
+  "val_n": 124
+ },
+ "BIL-6_666_B": {
+  "best_epoch": 67,
+  "stop_epoch": 92,
+  "best_val_correct": 98,
+  "val_n": 124
+ },
+ "BIL-6_1453_B": {
+  "best_epoch": 28,
+  "stop_epoch": 53,
+  "best_val_correct": 97,
+  "val_n": 124
+ },
+ "BIL-6_42_C": {
+  "best_epoch": 24,
+  "stop_epoch": 49,
+  "best_val_correct": 96,
+  "val_n": 124
+ },
+ "BIL-6_114514_C": {
+  "best_epoch": 12,
+  "stop_epoch": 37,
+  "best_val_correct": 97,
+  "val_n": 124
+ },
+ "BIL-6_1919810_C": {
+  "best_epoch": 22,
+  "stop_epoch": 47,
+  "best_val_correct": 96,
+  "val_n": 124
+ },
+ "BIL-6_666_C": {
+  "best_epoch": 28,
+  "stop_epoch": 53,
+  "best_val_correct": 98,
+  "val_n": 124
+ },
+ "BIL-6_1453_C": {
+  "best_epoch": 18,
+  "stop_epoch": 43,
+  "best_val_correct": 98,
+  "val_n": 124
+ }
+}
