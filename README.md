@@ -5,6 +5,14 @@
 </p>
 
 <p align="center">
+  Yuyang Zhang, Weihan Xu, Xuehai Zhou, Shucheng Cao, Qihuang Zhang
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2608.04460"><b>arXiv:2608.04460</b></a>
+</p>
+
+<p align="center">
   A training-free spectral descriptor of neuron morphology,<br>with the code and the saved results of the paper's experiments.
 </p>
 
