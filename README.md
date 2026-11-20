@@ -73,7 +73,7 @@ Run every command from the repository root. The commands below need no GPU and, 
 | `python 3_knn_descriptors/evaluate.py select`<br>`python 3_knn_descriptors/evaluate.py test` | Tables 3, 4 and R3 to R5: cosine k-NN on every descriptor, from the saved descriptors of the 2,103 neurons | `same selections = True, largest metric difference = 0.00e+00` |
 | `python 2_brec/aggin_seed_replication/summarize.py` | Tables R7 and R8 and the AG-GIN row of Table 1 from the saved per-seed counts | `total 206/400 = 51.5%` for seed 300 |
 | `python 7_appendix_numerical_checks/verify_fig_r1_example.py` | The worked example of Figure R1 | `M_AG(x, y) = 1.5000`, `d_Trop(x, y)^2 = 0.5000`, eigenvalues `6.0814 -0.8949 -1.5000 -3.6865` |
-| `python 7_appendix_numerical_checks/verify_exact_tropical_distance.py` | The identity above against brute-force lattice search | largest discrepancy of order 1e-14 |
+| `python 7_appendix_numerical_checks/verify_exact_tropical_distance.py` | The identity above against brute-force lattice search (about 1.5 min) | largest discrepancy of order 1e-14 |
 | `python 7_appendix_numerical_checks/verify_propositions.py` | Nine further results of Appendix A | all errors at most 1e-9 |
 | `python 2_brec/spectrum_all_relabelings.py` | BREC on all 32 relabelings of every pair (about 30 s on four CPU cores, needs the BREC file) | AG spectrum 217 / 400, Laplacian spectrum 213 / 400 |
 

@@ -6,7 +6,7 @@ The scripts check results of Appendix A numerically, work through the example of
 
 | Script | What it checks | Expected output |
 |---|---|---|
-| `verify_exact_tropical_distance.py` | Theorem A.30(ii), d_Trop² = d_Γ − M_AG, against brute-force CVP; Theorem A.26 on the spanning-tree lift of every pair; how often Babai rounding of a spanning-tree lift is suboptimal (Remark A.34) | max discrepancy of order 1e-14; Babai suboptimal on about 11% of pairs |
+| `verify_exact_tropical_distance.py` | Theorem A.30(ii), d_Trop² = d_Γ − M_AG, against brute-force CVP; Theorem A.26 on the spanning-tree lift of every pair; how often Babai rounding of a spanning-tree lift is suboptimal (Remark A.34) | max discrepancy of order 1e-14 (the last digits depend on the BLAS library and the CPU: 4.5e-14, the value in the paper, with numpy 1.23.5 and MKL; 3.6e-14 with the pinned packages and OpenBLAS); Babai suboptimal on 877 of the 7,726 pairs (11.4%); runs in about 1.5 minutes |
 | `verify_propositions.py` | Period matrix = LCA depths (Prop. A.18), morphological closed form (Cor. A.28), rank-one update (Prop. A.21), bridge contraction (Prop. A.23), Lipschitz bound (Prop. A.41), EDM sign pattern (Thm. A.39), subdivision invariance (Lemma A.25), unit-current bound (Lemma A.9), strongly regular example (Cor. A.45) | all errors ≤ 1e-9 |
 | `verify_half_circuit_criterion.py` | Prop. A.36: closest lift ⇔ half-circuit condition | agreement on all instances |
 | `verify_canonical_measure_and_drg.py` | Prop. A.11(iv) (canonical measure, equilibrium identity); resistance formula for distance-regular graphs (Prop. A.44) | errors ≤ 1e-13 |
